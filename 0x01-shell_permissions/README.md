@@ -9,3 +9,5 @@ Shell Permissions
 [3-new_owner] - ```sudo chown betty hello``` This script changes the owner of the file to betty.
 
 [4-empty] - ```touch hello``` This script creates an empty file called hello when executed.
+
+[5-execute] - ```chmod 744 hello``` This script adds the execute permission to the file hello.
