@@ -19,3 +19,5 @@ Shell Permissions
 [8-James_Bond] - ```chmod 007 hello``` This script gives full permission to other users and nothing to groups and owners.
 
 [9-John_Doe] - ```chmod 753 hello``` This script gives a certain permission to ugo.
+
+[10-mirror_permissions] - ```chmod 664 hello``` This script mirror the permissions in olleh.
