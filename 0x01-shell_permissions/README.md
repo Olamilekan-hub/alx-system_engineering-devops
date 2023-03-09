@@ -12,4 +12,6 @@ Shell Permissions
 
 [5-execute] - ```chmod 744 hello``` This script adds the execute permission to the owner of the file hello.
 
-[6-multiple_permissions] ```chmod 754 hello``` This script adds the excute, read and write permission to the owner and group of the file hello.
+[6-multiple_permissions] - ```chmod 754 hello``` This script adds the execute, read and write permission to the owner and group of the file hello.
+
+[7-everybody] - ```chmod 751 hello``` This script adds the execute permission to owners, groups and other users of the file hello.
