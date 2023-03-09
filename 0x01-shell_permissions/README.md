@@ -10,4 +10,6 @@ Shell Permissions
 
 [4-empty] - ```touch hello``` This script creates an empty file called hello when executed.
 
-[5-execute] - ```chmod 744 hello``` This script adds the execute permission to the file hello.
+[5-execute] - ```chmod 744 hello``` This script adds the execute permission to the owner of the file hello.
+
+[6-multiple_permissions] ```chmod 774 hello``` This script adds the excute, read and write permission to the owner and group of the file hello.
