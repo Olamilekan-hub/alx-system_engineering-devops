@@ -7,3 +7,5 @@ Shell Permissions
 [2-groups] - ```groups``` This script prints the all groups the current user is  part of.
 
 [3-new_owner] - ```sudo chown betty hello``` This script changes the owner of the file to betty.
+
+[4-empty] - ```touch hello``` This script creates an empty file called hello when executed.
