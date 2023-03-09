@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ap | sed ':a;N;$!ba;s/\n/, /g' | sed 's/\(.*\)\(\/$\)/\1\2, /g' | sed 's/\(.*\)\([^\/]\)$/\1\2, /g' | sed 's/,$//'
+ls -xamp
