@@ -26,4 +26,6 @@ Shell Permissions
 
 [12-direcory_permissions] - ```mkdir -m 751 my_dir``` This script will create a directory with a specific permissions.
 
-[13-chnage_group] - ```chgrp school hello``` This script will change the group name to of the file ```hello``` to school.
+[13-chnage_group] - ```chgrp school hello``` This script will change the group name of the file ```hello``` to school.
+
+[100-change_owner_and_group] - ```sudo chown -R vicent:staff``` This script willl change the group and owner name.
