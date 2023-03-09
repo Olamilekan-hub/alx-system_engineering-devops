@@ -5,3 +5,5 @@ Shell Permissions
 [1-who_am_i] - ```whoami``` THis script prints the username of the current user.
 
 [2-groups] - ```groups``` This script prints the all groups the current user is  part of.
+
+[3-new_owner] - ```sudo chown betty hello``` This script changes the owner of the file to betty.
