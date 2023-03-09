@@ -17,3 +17,5 @@ Shell Permissions
 [7-everybody] - ```chmod +x hello``` This script adds the execute permission to owners, groups and other users of the file hello.
 
 [8-James_Bond] - ```chmod 007 hello``` This script gives full permission to other users and nothing to groups and owners.
+
+[9-John_Doe] - ```chmod 753 hello``` This script gives a certain permission to ugo.
