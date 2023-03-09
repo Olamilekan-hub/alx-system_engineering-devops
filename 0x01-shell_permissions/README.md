@@ -25,3 +25,5 @@ Shell Permissions
 [11-directories_permissions] - ``chmod -R +X``` This script will add execute permission to all directories in the subdirectories of the current directory.
 
 [12-direcory_permissions] - ```mkdir -m 751 my_dir``` This script will create a directory with a specific permissions.
+
+[13-chnage_group] - ```chgrp school hello``` This script will change the group name to of the file ```hello``` to school.
