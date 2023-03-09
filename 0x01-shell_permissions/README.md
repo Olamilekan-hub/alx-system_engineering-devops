@@ -20,4 +20,4 @@ Shell Permissions
 
 [9-John_Doe] - ```chmod 753 hello``` This script gives a certain permission to ugo.
 
-[10-mirror_permissions] - ```chmod 354 hello``` This script mirror the permissions in olleh.
+[10-mirror_permissions] - ```chmod --reference=olleh hello``` This script mirror the permissions in olleh.
