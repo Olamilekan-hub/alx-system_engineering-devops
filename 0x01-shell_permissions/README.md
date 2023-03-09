@@ -21,3 +21,5 @@ Shell Permissions
 [9-John_Doe] - ```chmod 753 hello``` This script gives a certain permission to ugo.
 
 [10-mirror_permissions] - ```chmod --reference=olleh hello``` This script mirror the permissions in olleh.
+
+[11-directories_permission] - ``chmod -R +X``` This script will add execute permission to all directories in the subdirectories of the current directory.
