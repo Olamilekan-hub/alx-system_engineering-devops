@@ -28,4 +28,4 @@ Shell Permissions
 
 [13-chnage_group] - ```chgrp school hello``` This script will change the group name of the file ```hello``` to school.
 
-[100-change_owner_and_group] - ```sudo chown -R vicent:staff``` This script willl change the group and owner name.
+[100-change_owner_and_group] - ```sudo chown -R vicent:staff *``` This script will change the group and owner name.
