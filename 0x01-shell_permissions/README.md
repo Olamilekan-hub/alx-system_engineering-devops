@@ -22,4 +22,6 @@ Shell Permissions
 
 [10-mirror_permissions] - ```chmod --reference=olleh hello``` This script mirror the permissions in olleh.
 
-[11-directories_permission] - ``chmod -R +X``` This script will add execute permission to all directories in the subdirectories of the current directory.
+[11-directories_permissions] - ``chmod -R +X``` This script will add execute permission to all directories in the subdirectories of the current directory.
+
+[12-direcory_permissions] - ```mkdir -m 751 my_dir``` This script will create a directory with a specific permissions.
