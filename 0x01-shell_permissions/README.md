@@ -31,3 +31,5 @@ Shell Permissions
 [100-change_owner_and_group] - ```sudo chown -R vincent:staff *``` This script will change the group and owner name.
 
 [101-symbolic_link_permissions] - ```chown -h vincent:staff``` This script will change the owner and the group name of the symbolic file ```_hello```.
+
+[102-if_only] - ```chown --form=guillaume betty hello``` This script will change owner of the file hello to betty only if it is currently owned by guillaume.
